@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Hockey Championship</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+        body{
+          font-family: "Manrope", sans-serif;
+
+        }
+        p{
+            font-family: Manrope;
+            font-weight: 400;
+            font-style: normal;
+            color: rgba(19, 19, 24, 0.60);
+            line-height: normal;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="max-w-screen-xl mx-auto">
+            <nav class="bg-white border-gray-200 dark:bg-gray-900">
+                <div class="flex flex-wrap items-center justify-between mx-auto py-10">
+                    <a href="https://flowbite.com" class="flex items-center space-x-3 rtl:space-x-reverse">
+                        
+                        <span class="self-center text-3xl font-bold whitespace-nowrap dark:text-white ">Hockey's</span>
+                    </a>
+                    <div class="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse">
+                        <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50  font-medium rounded-lg px-4 py-2 md:px-5 md:py-2.5 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+                        <a href="#" class="text-white bg-[#FF4240] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-lg px-4 py-2 md:px-5 md:py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Get Ticket</a>
+                        <button data-collapse-toggle="mega-menu" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="mega-menu" class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
+                        <ul class="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse">
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent dark:border-gray-700">Pages</a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="max-w-screen-xl mx-auto">
+            <div class="banner-section">
+                <img src="./Images/1.png" alt="" class="w-full">
+            </div>
+        </div>
+      <!--   hockeys-club-section -->
+        <div class="max-w-screen-xl mx-auto py-10">
+            <div class="hockeys-club py-10">
+                <div class="hockeys-tittle text-center border-t-2 border-b-2 py-5 border-dashed">
+                    <h1 class="text-4xl font-bold">Professional Hockeys Club</h1>
+                    <p class="w-1/2 mx-auto my-5">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                
+                </div>
+            </div>
+               <!--   progress-bar-section -->                 
+            <div class="progress-bar grid lg:grid-cols-4">
+                     
+                <div class="progress-01">
+                      <!-- Circular Progress -->
+                    <div class="relative size-32 mx-auto">
+                        <svg class="size-full -rotate-270" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Background Circle -->
+                        <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-200" stroke-width="3"></circle>
+                        <!-- Progress Circle -->
+                        <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-[#FF4240]" stroke-width="3" stroke-dasharray="100" stroke-dashoffset="13" stroke-linecap="round"></circle>
+                        </svg>
+                    
+                        <!-- Percentage Text -->
+                        <div class="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                            <span class="text-center text-2xl font-bold text-black">87%</span>
+                        </div>
+                    </div>
+                    <div class="text text-center py-5 w-4/5 mx-auto">
+                        <h3 class="font-bold pb-5">Training Ground</h3>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+
+                        
+                </div>
+
+                <div class="progress-02">
+                    <!-- Circular Progress -->
+                    <div class="relative size-32 mx-auto">
+                      <svg class="size-full -rotate-270" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                      <!-- Background Circle -->
+                      <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-200" stroke-width="3"></circle>
+                      <!-- Progress Circle -->
+                      <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-green-500" stroke-width="3" stroke-dasharray="100" stroke-dashoffset="5" stroke-linecap="round"></circle>
+                      </svg>
+                  
+                      <!-- Percentage Text -->
+                      <div class="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                      <span class="text-center text-2xl font-bold text-black">95%</span>
+                      </div>
+                    </div>
+                    <div class="text text-center py-5 w-4/5 mx-auto">
+                        <h3 class="font-bold pb-5">Training Ground</h3>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                    
+                </div>
+                  <!-- End Circular Progress -->
+
+                <div class="progress-03">
+                    <!-- Circular Progress -->
+                    <div class="relative size-32 mx-auto">
+                      <svg class="size-full -rotate-270" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                      <!-- Background Circle -->
+                      <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-200" stroke-width="3"></circle>
+                      <!-- Progress Circle -->
+                      <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-" stroke-width="3" stroke-dasharray="100" stroke-dashoffset="10" stroke-linecap="round"></circle>
+                      </svg>
+                  
+                      <!-- Percentage Text -->
+                      <div class="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                      <span class="text-center text-2xl font-bold text-black">90%</span>
+                      </div>
+                    </div>
+                    <div class="text text-center py-5 w-4/5 mx-auto">
+                        <h3 class="font-bold pb-5">Training Ground</h3>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                </div>
+                  <!-- End Circular Progress -->
+
+                <div class="progress-04">
+                    <!-- Circular Progress -->
+                    <div class="relative size-32 mx-auto">
+                      <svg class="size-full -rotate-270" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                      <!-- Background Circle -->
+                      <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-gray-200" stroke-width="3"></circle>
+                      <!-- Progress Circle -->
+                      <circle cx="18" cy="18" r="16" fill="none" class="stroke-current text-[#FF4240]" stroke-width="3" stroke-dasharray="100" stroke-dashoffset="20" stroke-linecap="round"></circle>
+                      </svg>
+                  
+                      <!-- Percentage Text -->
+                      <div class="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
+                      <span class="text-center text-2xl font-bold text-black">80%</span>
+                      </div>
+                    </div>
+                    <div class="text text-center py-5 w-4/5 mx-auto">
+                        <h3 class="font-bold pb-5">Training Ground</h3>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    </div>
+                  <!-- End Circular Progress -->
+                </div>
+
+            </div>
+
+
+        </div>
+       <!--  program-section  -->
+        <div class="max-w-screen-xl mx-auto">
+            <div class="program-section">
+                <div class="prg-tittle border-dashed border-t-2 border-b-2 py-5 text-center">
+                    <h1 class="text-4xl font-bold py-5">Program Sections</h1>
+                    <p class="w-1/2 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+
+                </div>
+                <div class="program-card py-10">
+                    <div class="card-upper grid lg:grid-cols-2 gap-10">
+
+                        <div class="pt-48 px-10 pb-10 bg-[url('/images/2.png')] bg-cover bg-gray-400 bg-blend-multiply  border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700">
+                            
+                            <a href="#">
+                                <h5 class="text-white mb-2 text-2xl font-bold tracking-tight dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-white  dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                            <a href="#" class="inline-flex items-center px-5 py-3 text-lg font-medium text-center text-white bg-red-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Register Now!
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="pt-48 px-10 pb-10 bg-[url('/images/3.png')] bg-cover bg-gray-400 bg-blend-multiply  border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700">
+                            
+                            <a href="#">
+                                <h5 class="text-white mb-2 text-2xl font-bold tracking-tight dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-white  dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                            <a href="#" class="inline-flex items-center px-5 py-3 text-lg font-medium text-center text-white bg-red-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Register Now!
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="card-down grid lg:grid-cols-1">
+                        <div class="pt-48 lg:pt-72 my-10 pb-10 px-10 bg-[url('/images/4.png')] lg:bg-cover bg-no-repeat bg-gray-400 bg-blend-multiply  border-gray-200 rounded-2xl shadow dark:bg-gray-800 dark:border-gray-700"> 
+                            <a href="#">
+                                <h5 class=" mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-white dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                            <a href="#" class="inline-flex items-center px-5 py-3 text-lg font-medium text-center text-white bg-red-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                Register Now!
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- products-section -->
+
+        <div class="max-w-screen-xl mx-auto">
+            <div class="products-section">
+                <div class="prod-tittle text-center my-10 border-t-2 border-b-2 border-dashed py-5">
+                    <h1 class="text-4xl font-bold">Our New Products</h1>
+                    <p class="w-1/2 mx-auto py-5">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+                <div class="product-card grid lg:grid-cols-2 gap-10 p-5">
+
+                        <div class="card-01">
+                            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-5">
+                                <img class=" h-64 w-full object-cover object-center rounded-lg md:h-auto md:w-48 md:rounded-none md:rounded-s-lg lg:pr-5" src="./Images/5.png" alt="">
+                                <div class="flex flex-col justify-between lg:leading-normal leading-10">
+                                    <ul class="flex">
+                                        <li class="pr-5"><i class="fa-solid fa-star pr-3 text-yellow-500"></i>5.0</li>
+                                        <li class="pr-5"><i class="fa-regular fa-eye pr-3"></i>20</li>
+                                        <li class="pr-5"><i class="fa-regular fa-heart pr-3"></i>200</li>
+
+                                    </ul>
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">World Cup Flags Football</h5>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                    <ul class="flex flex-col lg:flex-row justify-between">
+                                        <li class="text-red-500"><strong>Price - $22.00</strong></li>
+                                        <li class=" text-gray-400"><i class="fa-solid fa-cart-shopping pr-3"></i><strong>Delivery Fee : Free</strong></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card-02">
+                            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-5">
+                                <img class=" h-64 w-full object-cover object-center rounded-lg md:h-auto md:w-48 md:rounded-none md:rounded-s-lg lg:pr-5" src="./Images/6.png" alt="">
+                                <div class="flex flex-col justify-between lg:leading-normal leading-10">
+                                    <ul class="flex">
+                                        <li class="pr-5"><i class="fa-solid fa-star pr-3 text-yellow-500"></i>5.0</li>
+                                        <li class="pr-5"><i class="fa-regular fa-eye pr-3"></i>20</li>
+                                        <li class="pr-5"><i class="fa-regular fa-heart pr-3"></i>200</li>
+
+                                    </ul>
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">World Cup Flags Football</h5>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                    <ul class="flex flex-col lg:flex-row justify-between">
+                                        <li class="text-red-500"><strong>Price - $22.00</strong></li>
+                                        <li class=" text-gray-400"><i class="fa-solid fa-cart-shopping pr-3"></i><strong>Delivery Fee : Free</strong></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card-03">
+                            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-5">
+                                <img class=" h-64 w-full object-cover object-center rounded-lg md:h-auto md:w-48 md:rounded-none md:rounded-s-lg lg:pr-5" src="./Images/7.png" alt="">
+                                <div class="flex flex-col justify-between lg:leading-normal leading-10">
+                                    <ul class="flex">
+                                        <li class="pr-5"><i class="fa-solid fa-star pr-3 text-yellow-500"></i>5.0</li>
+                                        <li class="pr-5"><i class="fa-regular fa-eye pr-3"></i>20</li>
+                                        <li class="pr-5"><i class="fa-regular fa-heart pr-3"></i>200</li>
+
+                                    </ul>
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">World Cup Flags Football</h5>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                    <ul class="flex flex-col lg:flex-row justify-between">
+                                        <li class="text-red-500"><strong>Price - $22.00</strong></li>
+                                        <li class=" text-gray-400"><i class="fa-solid fa-cart-shopping pr-3"></i><strong>Delivery Fee : Free</strong></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card-04">
+                           <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-5">
+                            <img class=" h-64 w-full object-cover object-center rounded-lg md:h-auto md:w-48 md:rounded-none md:rounded-s-lg lg:pr-5" src="./Images/8.png" alt="">
+                               <div class="flex flex-col justify-between lg:leading-normal leading-10">
+                                    <ul class="flex">
+                                        <li class="pr-5"><i class="fa-solid fa-star pr-3 text-yellow-500"></i>5.0</li>
+                                        <li class="pr-5"><i class="fa-regular fa-eye pr-3"></i>20</li>
+                                        <li class="pr-5"><i class="fa-regular fa-heart pr-3"></i>200</li>
+
+                                    </ul>
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">World Cup Flags Football</h5>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                    <ul class="flex flex-col lg:flex-row justify-between">
+                                        <li class="text-red-500"><strong>Price - $22.00</strong></li>
+                                        <li class=" text-gray-400"><i class="fa-solid fa-cart-shopping pr-3"></i><strong>Delivery Fee : Free</strong></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card-05">
+                            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-5">
+                                <img class="h-64 w-full object-cover object-center rounded-lg md:h-auto md:w-48 md:rounded-none md:rounded-s-lg lg:pr-5" src="./Images/9.png" alt="">
+                                <div class="flex flex-col justify-between lg:leading-normal leading-10">
+                                    <ul class="flex">
+                                        <li class="pr-5"><i class="fa-solid fa-star pr-3 text-yellow-500"></i>5.0</li>
+                                        <li class="pr-5"><i class="fa-regular fa-eye pr-3"></i>20</li>
+                                        <li class="pr-5"><i class="fa-regular fa-heart pr-3"></i>200</li>
+
+                                    </ul>
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">World Cup Flags Football</h5>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                    <ul class="flex flex-col lg:flex-row justify-between">
+                                        <li class="text-red-500"><strong>Price - $22.00</strong></li>
+                                        <li class=" text-gray-400"><i class="fa-solid fa-cart-shopping pr-3"></i><strong>Delivery Fee : Free</strong></li>
+                                    </ul>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card-06">
+                            <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row  hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-5">
+                                <img class="h-64 w-full object-cover object-center rounded-lg md:h-auto md:w-48 md:rounded-none md:rounded-s-lg lg:pr-5" src="./Images/10.png" alt="">
+                                <div class="flex flex-col justify-between lg:leading-normal leading-10">
+                                    <ul class="flex">
+                                        <li class="pr-5"><i class="fa-solid fa-star pr-3 text-yellow-500"></i>5.0</li>
+                                        <li class="pr-5"><i class="fa-regular fa-eye pr-3"></i>20</li>
+                                        <li class="pr-5"><i class="fa-regular fa-heart pr-3"></i>200</li>
+
+                                    </ul>
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">World Cup Flags Football</h5>
+                                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                    <ul class="flex flex-col lg:flex-row flex-col lg:flex-row justify-between">
+                                        <li class="text-red-500"><strong>Price - $22.00</strong></li>
+                                        <li class=" text-gray-400"><i class="fa-solid fa-cart-shopping pr-3"></i><strong>Delivery Fee : Free</strong></li>
+                                    </ul>
+                                </div>
+                            </a>
+                           
+                        </div>
+                        
+
+                </div>
+            </div>
+        </div>
+       <!--  client-section -->
+        <div class="max-w-screen-xl mx-auto my-10">
+            <div class="client-section">
+                <div class="client-tittle text-center py-5 border-t-2 border-b-2 border-dashed">
+                    <h1 class="text-4xl font-bold py-5">Clients Question</h1>
+                    <p class="w-1/2 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+
+                <!-- equipment-section -->
+
+                <div class="equipment-section flex flex-col lg:flex-row justify-between p-8 my-10 rounded-lg border-gray-100 border-2 gap-10 mx-5 lg:mx-0">
+                    <div class="equip-left">
+                        <img src="./Images/11.png" alt="">
+                    </div>
+                    <div class="equip-right lg:w-3/5">
+                          
+                        <!-- Accordion Item 1 -->
+                        <div class="border-b border-slate-200">
+                            <button onclick="toggleAccordion(1)" class="w-full flex justify-between items-center py-5 text-slate-800">
+                            <strong>Our Equipment</strong>
+                            <span id="icon-1" class="text-slate-800 transition-transform duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                                <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+                                </svg>
+                            </span>
+                            </button>
+                            <div id="content-1" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                            <div class="pb-5 text-sm text-slate-500">
+                                Material Tailwind is a framework that enhances Tailwind CSS with additional styles and components.
+                            </div>
+                            </div>
+                        </div>
+   
+                        <!-- Accordion Item 2 -->
+                        <div class="border-b border-slate-200">
+                            <button onclick="toggleAccordion(2)" class="w-full flex justify-between items-center py-5 text-slate-800">
+                             <strong>Hockey Training</strong>
+                            <span id="icon-2" class="text-slate-800 transition-transform duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                                <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+                                </svg>
+                            </span>
+                            </button>
+                            <div id="content-2" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                            <div class="pb-5 text-sm text-slate-500">
+                                You can use Material Tailwind by importing its components into your Tailwind CSS project.
+                            </div>
+                            </div>
+                        </div>
+   
+                        <!-- Accordion Item 3 -->
+                        <div class="border-b border-slate-200">
+                            <button onclick="toggleAccordion(3)" class="w-full flex justify-between items-center py-5 text-slate-800">
+                             <strong>Private Lessons</strong>
+                            <span id="icon-3" class="text-slate-800 transition-transform duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                                <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+                                </svg>
+                            </span>
+                            </button>
+                            <div id="content-3" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                            <div class="pb-5 text-sm text-slate-500">
+                                Material Tailwind allows you to quickly build modern, responsive websites with a focus on design.
+                            </div>
+                            </div>
+                        </div>
+
+                        <!-- Accordion Item 4 -->
+                        <div class="border-b border-slate-200">
+                            <button onclick="toggleAccordion(4)" class="w-full flex justify-between items-center py-5 text-slate-800">
+                             <strong>Ski Touring</strong>
+                            <span id="icon-4" class="text-slate-800 transition-transform duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                                <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+                                </svg>
+                            </span>
+                            </button>
+                            <div id="content-4" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                            <div class="pb-5 text-sm text-slate-500">
+                                Material Tailwind allows you to quickly build modern, responsive websites with a focus on design.
+                            </div>
+                            </div>
+                        </div>
+
+                        <!-- Accordion Item 5 -->
+                        <div class="border-b border-slate-200">
+                            <button onclick="toggleAccordion(5)" class="w-full flex justify-between items-center py-5 text-slate-800">
+                             <strong>Booking</strong>
+                            <span id="icon-5" class="text-slate-800 transition-transform duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                                <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+                                </svg>
+                            </span>
+                            </button>
+                            <div id="content-5" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                            <div class="pb-5 text-sm text-slate-500">
+                                Material Tailwind allows you to quickly build modern, responsive websites with a focus on design.
+                            </div>
+                            </div>
+                        </div>
+
+                        <!-- Accordion Item 6 -->
+                        <div class="">
+                            <button onclick="toggleAccordion(6)" class="w-full flex justify-between items-center py-5 text-slate-800">
+                            <strong>Pricings</strong>
+                            <span id="icon-6" class="text-slate-800 transition-transform duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                                <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+                                </svg>
+                            </span>
+                            </button>
+                            <div id="content-6" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                            <div class="pb-5 text-sm text-slate-500">
+                                Material Tailwind allows you to quickly build modern, responsive websites with a focus on design.
+                            </div>
+                            </div>
+                        </div>
+   
+                        
+                    </div>                                                                
+                </div>
+            </div>
+        </div>
+        <!-- get-section -->
+
+        <div class="max-w-screen-xl mx-auto">
+            <div class="get-section">
+                <div class="get-tittle text-center border-t-2 border-b-2 border-dashed py-5">
+                    <h1 class="text-4xl font-bold py-5">Get In Touch</h1>
+                    <p class="w-1/2 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+               <!--  form&contact-section  -->      
+
+                <div class="form&contact-section flex flex-col lg:flex-row py-10 gap-10 px-5 lg:px-0">
+
+                    <div class="contact-section lg:w-1/3 grid grid-rows-3 gap-5 p-10 border-2 border-gray-100 rounded-xl">
+
+                        <div class="pn-contact bg-yellow-50 rounded-xl">
+                            <ul class="p-10 ">
+                                <li><img src="./Images/call.png" alt=""></li>
+                                <li><p class="py-3">Phone Number : </p></li>
+                                <li><strong>(+62) 123-321-543</strong></li>
+                            </ul>
+                        </div>
+                        <div class="email-contact bg-pink-50 rounded-xl">
+                            <ul class="p-10 ">
+                                <li><img src="./Images/mail.png" alt=""></li>
+                                <li><p class="py-3">Phone Number : </p></li>
+                                <li><strong>(+62) 123-321-543</strong></li>
+                            </ul>
+                        </div>
+                        <div class="location-contact bg-violet-50 rounded-xl">
+                            <ul class="p-10 ">
+                                <li><img src="./Images/map.png" alt=""></li>
+                                <li><p class="py-3">Phone Number : </p></li>
+                                <li><strong>(+62) 123-321-543</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form-section lg:w-2/3">
+                        <form action="#" class="grid lg:grid-cols-2 gap-5">
+                            <div class="mb-5">
+                                <label for="fname" class="block mb-2 text-lg font-bold text-gray-900 dark:text-white">Your Name</label>
+                                <input type="text" id="fname" class="p-5 shadow-sm bg-gray-100 text-gray-900 text-lg rounded-lg  block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:shadow-sm-light" placeholder="Enter Your Full Name" required /> 
+                            </div>
+                            <div class="mb-5">
+                                <label for="email" class="block mb-2 text-lg font-bold  text-gray-900 dark:text-white">Your Email</label>
+                                <input type="email" id="email" class="p-5 shadow-sm bg-gray-100  text-gray-900 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="email@gmail.com" required /> 
+                            </div>
+                            <div class="mb-5">
+                                <label for="subject" class="block mb-2 text-lg font-bold text-gray-900 dark:text-white">Your Subject</label>
+                                <input type="text" id="subject" class="p-5 shadow-sm bg-gray-100  text-gray-900 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Enter Your Subject" required />
+                            </div>
+                            <div class="mb-5">
+                                <label for="fname" class="block mb-2 text-lg font-bold text-gray-900 dark:text-white">Your Number</label>
+                                <input type="text" id="fname" class="p-5 shadow-sm bg-gray-100  text-gray-900 text-lg rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Enter Phone Number" required /> 
+                            </div>
+
+                            <div class="lg:col-span-2">
+
+                                <label for="message" class="block mb-2 text-lg font-bold text-gray-900 dark:text-white">Your message</label>
+                                <textarea id="message" rows="10" class="block p-2.5 w-full text-lg text-gray-900 bg-gray-100 rounded-lg  focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
+
+                            </div>
+                            <div class="lg:col-span-2"><button type="button" class="focus:outline-none text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:ring-red-300 rounded-lg text-lg font-bold px-5 py-5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 w-full">Send Message</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- social-media -->
+        
+        <div class="max-w-screen-xl mx-auto">
+            <div class="social-media py-5">
+                <div class="social-tittle text-center py-5 bg-gray-100 rounded-lg">
+                    <h1 class="text-2xl font-bold">Social Media</h1>
+                    <ul class="flex justify-center py-5">
+                        <li><a href="#"><i class="fa-brands fa-facebook px-5"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube px-5"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter px-5"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram px-5"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <script>
+        function toggleAccordion(index) {
+        const content = document.getElementById(`content-${index}`);
+        const icon = document.getElementById(`icon-${index}`);
+    
+        // SVG for Minus icon
+        const minusSVG = `
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+            <path d="M3.75 7.25a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Z" />
+            </svg>
+        `;
+    
+        // SVG for Plus icon
+        const plusSVG = `
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+            <path d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+            </svg>
+        `;
+    
+        // Toggle the content's max-height for smooth opening and closing
+        if (content.style.maxHeight && content.style.maxHeight !== '0px') {
+            content.style.maxHeight = '0';
+            icon.innerHTML = plusSVG;
+        } else {
+            content.style.maxHeight = content.scrollHeight + 'px';
+            icon.innerHTML = minusSVG;
+        }
+        }
+    </script>
+    
+</body>
+</html>
